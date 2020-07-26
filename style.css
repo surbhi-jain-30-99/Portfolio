@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body{
+    background-color:#6EBFB5;
+    margin: 0px auto;
+    width: 100%;
+
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 20px;
+    color:#e8505b;
+    font-size: 19px;
+    
+}
+nav ul{
+    float: right;
+    width: 100%;
+
+  }
+nav{
+    width: 100%;
+    height:60px
+    
+}
+nav{
+    background-color:#ff5f40;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+}
+section{
+    background-color:#6EBFB5;
+}
+header h1 span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: white solid 10px;
+}
+.home{
+    /*background-color:#7fdbda;;*/
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.home .inner h1{
+    font-family: 'Georgia', serif;
+}
+.home .inner h2{
+    font-family: 'Georgia', serif;
+    
+
+
+}
+    
+
+.home .inner img{
+    border-radius: 50px;
+    width:150px;
+    height: auto;
+}
+
+.about{
+    background-image: url("https://cutewallpaper.org/21/simple-backgrounds-wallpapers/Simple-Backgrounds-wallpaper-1920x1080-47272.jpg");
+    background-color:#006a71 ;
+    display:table;
+    height:100vh;
+    width:100%;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.about .inner {
+    width:50%;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    padding-top:50px;
+    padding-left:50px;
+}
+.about .inner h1{
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.about.inner p{
+    font-size: 25px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.education,.hobbies{
+    background-color:#ff847c;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    
+    display:table;
+    height:100vh;
+    width:100%
+   
+    
+    
+}
+.education .inner{
+    padding:50px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    
+    
+    
+}
+
+.education h1{
+    font-size:40px;
+    
+   
+    
+}
+.education .inner div p,.hobbies  .inner div p{
+    font-size: 25px;
+    
+}
+.education .inner div,.hobbies .inner div,.skills .inner div{
+    width:30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left; 
+    text-align: center;   
+    
+}
+.education .inner div img,.hobbies .inner div img{
+    width:100px;
+    height:auto;
+
+}
+.hobbies{
+    /*background-image: url("https://wallpapercave.com/wp/wp6312623.jpg")*/
+    background-color: #24a19c;
+}
+.hobbies .inner,.skills .inner,.contact .inner{
+    padding-right:50px;
+   
+}
+.hobbies h1,.skills h1,.contact h1{
+    font-size: 50px;
+    
+}
+.skills{
+    /*background-image: url("https://www.wikihow.com/images/thumb/f/fd/Be-More-Family-Oriented-Step-9.jpg/aid32452-v4-1200px-Be-More-Family-Oriented-Step-9.jpg");*/
+    background-color: #006a71;
+    display:table;
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.skills .inner div{
+    text-align: left;
+    color: white;
+}
+
+.skills .inner div ul li,.contact .inner div ul li{
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+.contact{
+   background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/01/digital-wallpaper-10.jpg");
+    display:table;
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.contact .inner{
+    background-color: rgba(0,0,0,0.5);
+}
+.contact .inner div{
+    text-align: center;
+    
+     
+
+}
+.contact  h1{
+    text-align: center;
+    
+}
+.contact .inner div p{
+    text-align: center;
+}
+/responsive designing/
+@media (min-width:320px) and (max-width:768px){
+    .home .inner img{
+        padding-top: 100px;
+    }
+    #about{
+        background:pink;important
+    }
+    
+    
+    .about .inner p{
+        font-size: 25px;
+        text-align: justify;
+    }
+    .education .inner div{
+        width:100%;
+    }
+    #skills{
+        background:rgb(209, 177, 236);important
+    }
+    .skills h1{
+        text-align: center;
+    }
+    .hobbies .inner div{
+        width:100%;
+    }
+    .hobbies h1{
+        text-align: center;
+    }
+    .contact .inner div p{
+        text-align: center;
+        
+        
+    }
+    .contact h1{
+        text-align: center;
+    }
+    
+}
+/*@media(min-width:768px) and (max-width:1023px){
+
+}
+@media(min-width:1024px) and (max-width:1439px){
+
+}*/
